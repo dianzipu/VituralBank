@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/client_account_database?allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: XinAn123456
+
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false # 数据库下划线自动转驼峰标示关闭
